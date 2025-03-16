@@ -1,0 +1,90 @@
+/* Hero Section */
+#hero {
+    background-image: url('PT BG.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+/* Hero Section Text */
+#hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+    color: black;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* About Section */
+#about img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#about img:hover {
+    transform: scale(1.1);
+}
+
+/* Projects Section */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    background-color: white;
+}
+
+/* Keyframes for FadeIn Effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Footer Styles */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.footer a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: gray;
+}
+
+
