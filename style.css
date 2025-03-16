@@ -73,6 +73,7 @@
 }
 
 /* Footer Styles */
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -81,17 +82,15 @@
     color: white;
     text-align: center;
     padding: 10px 0;
-    margin-top: 50px;
 }
 
-.footer a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
+/* Add padding at the bottom of the contact section to avoid overlap */
+#contact {
+    padding-bottom: 120px; /* Adds space for the footer */
 }
 
-.footer a:hover {
-    color: gray;
+/* Optional styling for the button */
+button[type="submit"] {
+    padding: 15px;
 }
-
 
