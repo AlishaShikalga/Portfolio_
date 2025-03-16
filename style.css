@@ -61,8 +61,6 @@
     padding-bottom: 120px; /* Adds space for the footer */
 }
 
-
-
 /* Keyframes for FadeIn Effect */
 @keyframes fadeIn {
     from {
@@ -73,7 +71,7 @@
     }
 }
 
-/* Footer Styles */
+/* Footer */
 
 .footer {
     position: fixed;
