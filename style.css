@@ -55,6 +55,13 @@
     background-color: white;
 }
 
+/* Contact */
+#contact {
+    margin-bottom: 100px; /* Adds space between button and footer */
+}
+
+
+
 /* Keyframes for FadeIn Effect */
 @keyframes fadeIn {
     from {
